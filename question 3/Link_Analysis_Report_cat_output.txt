@@ -1,0 +1,21 @@
+Link Analysis Report
+
+Files Created:
+original.txt
+hardlink.txt
+softlink.txt
+
+Inode Observation:
+original.txt and hardlink.txt have the same inode number.
+softlink.txt has a different inode number.
+
+Hard Link:
+Shares the same inode as the original file.
+Remains accessible after deleting the original file.
+
+Symbolic Link:
+Stores the path to the original file.
+Becomes broken after deleting the original file.
+
+Conclusion:
+Hard links reference the same file data, while symbolic links reference the file path.

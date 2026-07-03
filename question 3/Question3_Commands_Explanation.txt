@@ -1,0 +1,22 @@
+Question 3 – File System and Link Analysis
+
+mkdir Link_Analysis Creates a working directory.
+
+echo “Linux Link Analysis Experiment” > original.txt Creates a file and
+writes text into it.
+
+cat original.txt Displays the file contents.
+
+ln original.txt hardlink.txt Creates a hard link.
+
+ln -s original.txt softlink.txt Creates a symbolic (soft) link.
+
+ls -li Lists files with inode numbers.
+
+stat Displays detailed metadata about a file.
+
+rm original.txt Deletes the original file.
+
+cat hardlink.txt Verifies the hard link still works.
+
+cat softlink.txt Shows the symbolic link is broken after deletion.
