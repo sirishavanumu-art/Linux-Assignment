@@ -1,0 +1,22 @@
+Storage Health Assessment Report
+
+Storage Devices:
+Displayed using lsblk.
+
+Mounted File Systems:
+Displayed using df -h.
+
+Inode Usage:
+Displayed using df -i.
+
+Disk Usage:
+Displayed using du -sh .
+
+Storage Health:
+The system has sufficient free disk space and available inodes.
+
+Recommendations:
+1. Monitor disk usage regularly.
+2. Remove unnecessary files.
+3. Archive old files.
+4. Check inode usage periodically.

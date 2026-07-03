@@ -1,0 +1,12 @@
+Question 5 – Storage Health Assessment
+
+lsblk Lists storage devices and partitions.
+
+df -h Shows disk space usage in a human-readable format.
+
+df -i Displays inode usage for each file system.
+
+du -sh . Shows the total size of the current directory.
+
+nano Storage_Assessment_Report.txt Creates or edits the storage
+assessment report using the nano editor.
