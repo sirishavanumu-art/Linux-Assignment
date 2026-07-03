@@ -1,0 +1,19 @@
+File Access and I/O Investigation Report
+
+Open Files:
+Listed using lsof.
+
+File Descriptors:
+Displayed using ls -l /proc/$$/fd.
+
+Output Redirection:
+echo "Linux I/O Investigation" > output.txt
+
+Error Redirection:
+ls sample.txt 2> error.txt
+
+Resource Limits:
+Displayed using ulimit -a.
+
+Conclusion:
+Linux manages input, output, and error using file descriptors. Output and errors can be redirected to files for logging and troubleshooting.

@@ -1,0 +1,16 @@
+Question 4 – File Access and I/O Investigation
+
+lsof | head Lists currently open files.
+
+ls -l /proc/$$/fd Displays the current shell’s file descriptors.
+
+echo “Linux I/O Investigation” > output.txt Redirects standard output
+into a file.
+
+cat output.txt Displays the file contents.
+
+ls sample.txt 2> error.txt Redirects error messages into a file.
+
+cat error.txt Displays the stored error message.
+
+ulimit -a Shows the current resource limits for the shell.
