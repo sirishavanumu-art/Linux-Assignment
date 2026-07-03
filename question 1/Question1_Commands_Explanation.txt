@@ -1,0 +1,15 @@
+Question 1 – Linux Environment Verification
+
+whoami Displays the username of the currently logged-in user.
+
+id Shows the user’s UID, GID, and group memberships.
+
+echo $SHELL Displays the current shell being used (e.g., /bin/bash).
+
+pwd Prints the full path of the current working directory.
+
+ls -la Lists all files and directories, including hidden files, with
+permissions and ownership.
+
+ping -c 4 google.com Sends 4 network packets to verify internet/network
+connectivity.

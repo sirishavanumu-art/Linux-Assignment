@@ -1,0 +1,37 @@
+Linux Environment Verification Report
+
+1. Username and Groups
+Command:
+whoami
+id
+
+Observation:
+The whoami command displays the current logged-in user. The id command displays the user's UID, GID, and group memberships.
+
+2. Current Shell
+Command:
+echo $SHELL
+
+Observation:
+The current shell is Bash (/bin/bash). The shell provides the command-line interface to interact with Linux.
+
+3. Current Working Directory
+Command:
+pwd
+
+Observation:
+The pwd command displays the absolute path of the current working directory.
+
+4. Files and Directories
+Command:
+ls -la
+
+Observation:
+The ls -la command lists all files and directories, including hidden files, with permissions and ownership.
+
+5. Network Connectivity
+Command:
+ping -c 4 google.com
+
+Observation:
+The successful ping replies confirm that the system has an active network connection.
