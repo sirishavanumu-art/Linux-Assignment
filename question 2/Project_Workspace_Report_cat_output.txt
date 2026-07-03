@@ -1,0 +1,26 @@
+Secure Project Workspace Report
+
+Directory Structure
+Project_Workspace/
+├── Documents
+│   └── project_info.txt
+├── Source_Code
+└── Backup
+
+Permissions Before:
+Directory: drwxr-xr-x
+File: -rw-r--r--
+
+Permissions After:
+Directory: drwx------
+File: -rw-------
+
+Ownership:
+Owner: student
+Group: student
+
+Umask:
+0022
+
+Observation:
+Permission 700 restricts directory access to the owner only. Permission 600 allows only the owner to read and modify the file, improving security.

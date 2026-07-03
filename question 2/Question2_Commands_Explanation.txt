@@ -1,0 +1,24 @@
+Question 2 – Secure Project Workspace Setup
+
+mkdir Project_Workspace Creates the main project directory.
+
+cd Project_Workspace Moves into the project directory.
+
+mkdir Documents Source_Code Backup Creates subdirectories for documents,
+source code, and backups.
+
+touch Documents/project_info.txt Creates an empty file.
+
+tree / ls -R Displays the directory structure.
+
+ls -ld Project_Workspace Shows directory permissions and ownership.
+
+ls -l Documents Shows file permissions inside the Documents folder.
+
+umask Displays the default permission mask.
+
+chmod 700 Project_Workspace Allows only the owner to access the project
+directory.
+
+chmod 600 Documents/project_info.txt Allows only the owner to read and
+write the file.
